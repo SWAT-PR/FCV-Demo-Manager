@@ -1,0 +1,8 @@
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\obj\x86\Release\FreeCandyVanRecorder.Form1.resources
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\obj\x86\Release\FreeCandyVanRecorder.Properties.Resources.resources
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\obj\x86\Release\FreeCandyVanRecorder.csproj.GenerateResource.Cache
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\bin\Release\FCVDemoManager.exe.config
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\bin\Release\FCVDemoManager.exe
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\bin\Release\FCVDemoManager.pdb
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\obj\x86\Release\FCVDemoManager.exe
+C:\Users\UNKNOWN\Documents\Visual Studio 2010\Projects\FreeCandyVanRecorder\FreeCandyVanRecorder\obj\x86\Release\FCVDemoManager.pdb
