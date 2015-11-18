@@ -17,14 +17,17 @@ namespace FreeCandyVanRecorder
     {
 
         List<LinkItem> tab = new List<LinkItem>() { }; //global list used in local areas
-        public Form1()
+        public Form1(string[] args)
         {
             try
             {
                 InitializeComponent();
                 using (WebClient client = new WebClient())
                 {
-                    string htmlCode = client.DownloadString("http://142.4.195.170/logs/demos/");
+                    if (args.Length > 1)
+                        string htmlCode = client.DownloadString(args[1]);
+                    else
+                        string htmlCode = client.DownloadString("http://142.4.195.170/logs/demos/");
                     textBox1.Text = htmlCode;
                 }
 
