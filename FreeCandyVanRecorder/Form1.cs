@@ -1,18 +1,3 @@
-/*
- * * * * * * * * * * * * * CHANGES * * * * * * * * * * * * * * * *
- *                                                               *
- *----- 0.2 (20.11.2015)                                         *
- *        |                                                      *
- *        + Added a progresss bar with status for downloads      *
- *        + Added status for files (saved/not saved)             *
- *        + Corrected date and time look                         *
- *        |                                                      *
- * ----- 0.3 (unknown)                                           *
- *                                                               *
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
- */
-
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
