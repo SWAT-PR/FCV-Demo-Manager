@@ -1,4 +1,4 @@
-﻿namespace FreeCandyVanRecorder
+namespace FreeCandyVanRecorder
 {
     partial class Form1
     {
@@ -40,9 +40,13 @@
             this.menuItem1 = new System.Windows.Forms.MenuItem();
             this.saveItem = new System.Windows.Forms.MenuItem();
             this.deleteItem = new System.Windows.Forms.MenuItem();
+            this.showAll = new System.Windows.Forms.MenuItem();
             this.menuItem4 = new System.Windows.Forms.MenuItem();
             this.menuItem6 = new System.Windows.Forms.MenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.downloadStatus = new System.Windows.Forms.Label();
+            this.nb = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,7 +117,8 @@
             this.menuItem1.Index = 0;
             this.menuItem1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.saveItem,
-            this.deleteItem});
+            this.deleteItem,
+            this.showAll});
             this.menuItem1.Text = "File";
             // 
             // saveItem
@@ -127,6 +132,12 @@
             this.deleteItem.Index = 1;
             this.deleteItem.Text = "Delete";
             this.deleteItem.Click += new System.EventHandler(this.deleteItem_Click);
+            // 
+            // showAll
+            // 
+            this.showAll.Index = 2;
+            this.showAll.Text = "Show all";
+            this.showAll.Visible = false;
             // 
             // menuItem4
             // 
@@ -150,11 +161,41 @@
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip1.ToolTipTitle = "Help";
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(10, 319);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(187, 17);
+            this.progressBar1.TabIndex = 7;
+            // 
+            // downloadStatus
+            // 
+            this.downloadStatus.AutoSize = true;
+            this.downloadStatus.BackColor = System.Drawing.Color.Transparent;
+            this.downloadStatus.Location = new System.Drawing.Point(203, 321);
+            this.downloadStatus.Name = "downloadStatus";
+            this.downloadStatus.Size = new System.Drawing.Size(56, 13);
+            this.downloadStatus.TabIndex = 8;
+            this.downloadStatus.Text = "0 % saved";
+            // 
+            // nb
+            // 
+            this.nb.AutoSize = true;
+            this.nb.Location = new System.Drawing.Point(195, 77);
+            this.nb.Name = "nb";
+            this.nb.Size = new System.Drawing.Size(35, 13);
+            this.nb.TabIndex = 9;
+            this.nb.Text = "label3";
+            this.nb.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(278, 313);
+            this.Controls.Add(this.nb);
+            this.Controls.Add(this.downloadStatus);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -188,6 +229,10 @@
         private System.Windows.Forms.MenuItem menuItem4;
         private System.Windows.Forms.MenuItem menuItem6;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label downloadStatus;
+        private System.Windows.Forms.MenuItem showAll;
+        private System.Windows.Forms.Label nb;
     }
 }
 
